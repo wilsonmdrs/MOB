@@ -1,0 +1,21 @@
++ search *
+- <call>search_on_web <star></call>
+
+> object search_on_web python
+    from functions.Search import Search
+    search = Search()
+    response = search.getAnswer(args[0])
+    return response
+< object
+
+> object send_message python
+    from src.functions.Methods import Methods
+
+
+    chat_id = args[0]
+    args.pop(0)
+    message = ''
+    for arg in args:
+        message = message +  arg + ' '
+    Methods.send_message(chat_id, message)
+< object

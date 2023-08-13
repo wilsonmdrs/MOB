@@ -1,0 +1,14 @@
+! version = 2.0
+//Sentenças Desconhecidas
+
+//Respostas padrão
+
++ *
+- <bot botIntention=try understand>
+^ {random}
+^   Sorry, but I didn't understand what you meant.|
+^   Sorry, but I didn't understand what you said, please be more specific.|
+^   Sorry, but I don't understand what you're trying to tell me, please be clearer.|
+^   Sorry, but I didn't assimilate what you just mentioned, please be more specific.|
+^   Sorry, but I didn't understand what you said."
+^ {/random}

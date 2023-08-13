@@ -1,0 +1,17 @@
++ (hi|hello|hey) [(mob|mobe|moby|mobi)]
+- Hi! What can I do to help you?
+- Hello! How can I assist you today?
+- Hey! How are you?
+- Hello! How's it going?
+
++ [*] (good|great|awesome|well|amazing) [*]
+% [*] (how are you|how * it going)
+- Good to know! How can I help you?
+- Excelent! How can I assist you?
+- Excelent! How can I help you?
+- Good to know! How can I assist you?
+
++ [*] good (morning|afternoon|evening|night) [*]
+- Good <formal>
+- Good <formal>, How are you?
+- Good <formal>, How's it going?
