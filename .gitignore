@@ -1,1 +1,3 @@
 /.vscode
+/application/node_modules
+/service/env
